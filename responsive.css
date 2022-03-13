@@ -1,6 +1,6 @@
 @media all and (min-width: 1980px) {
   .container {
-    margin: auto;
+    margin: 0 132px 0 132px;
   }
 
   .learning-process {
@@ -9,8 +9,23 @@
 
   .learning-process h1 {
     padding-bottom: 34px;
-    font-size: 45px;
+    font-size: 55px;
     line-height: 55px;
     letter-spacing: 0.5px;
+  }
+
+  .learning-process p {
+    font-size: 24px;
+  }
+
+  .container-courses {
+    height: 400px;
+    padding: 0 110px 0 110px;
+    justify-content: space-between;
+  }
+
+  .courses {
+    width: 22%;
+    height: 100%;
   }
 }
