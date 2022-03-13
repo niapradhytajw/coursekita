@@ -27,6 +27,24 @@ body {
   margin: 0 72px 0 72px;
 }
 
+.btn-secondary {
+  padding: 18px 79px 18px 79px;
+  display: inline-block;
+  background: rgba(205, 68, 81, 0.5);
+  border: 4px solid #cd4451;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  color: #903040;
+}
+
 .learning-process {
   position: relative;
   padding: 80px 433px 46px 431px;
@@ -53,7 +71,7 @@ body {
   opacity: 0.7;
 }
 
-.container-courses {
+.container-learning {
   display: flex;
   position: relative;
   height: 300px;
@@ -61,7 +79,7 @@ body {
   justify-content: space-between;
 }
 
-.courses {
+.learnings {
   width: 264px;
   height: 300px;
   background: #ffffff;
@@ -69,7 +87,7 @@ body {
   border-radius: 10px;
 }
 
-.courses-icon {
+.learning-icon {
   margin: 43px 108px 0 108px;
   width: 48px;
   height: 48px;
@@ -102,7 +120,7 @@ body {
   background-image: linear-gradient(to bottom right, #cd4451, #c72929);
 }
 
-.courses-content h1 {
+.learning-content h1 {
   padding: 29px 25px 14px 24px;
   font-style: normal;
   font-weight: 600;
@@ -113,7 +131,7 @@ body {
   color: #903040;
 }
 
-.courses-content p {
+.learning-content p {
   padding: 0 25px 18px 24px;
   font-style: normal;
   font-weight: 400;
@@ -127,10 +145,10 @@ body {
 
 .left-course {
   float: left;
-  margin: 16px 297px 50px 50px;
+  margin: 16px 225px 50px 50px;
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 119.5%;
   display: flex;
   align-items: center;
@@ -148,8 +166,48 @@ body {
   justify-content: space-between;
 }
 
+.right-course p {
+  padding: 18px 0 18px 0;
+}
+
 .arrow-bottom {
-  padding: 0;
+  padding: 18px 0 18px 0;
   color: black;
   cursor: pointer;
+}
+
+.container-courses {
+  display: flex;
+  justify-content: space-between;
+}
+
+.courses {
+  height: 492px;
+  width: 335px;
+  background: #ffffff;
+  filter: drop-shadow(0px 20px 50px rgba(205, 68, 81, 0.2));
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.courses img {
+  width: 335px;
+  height: 235px;
+}
+
+.courses-content {
+  width: 335px;
+  height: 250px;
+  background: rgba(205, 68, 81, 0.25);
+  border-radius: 0px 30px 30px 30px;
+}
+.courses-content h1 {
+  padding: 11px 15px 0 15px;
+  font-size: 14px;
+}
+.courses-content p {
+  padding: 12px 15px 19px 15px;
 }
