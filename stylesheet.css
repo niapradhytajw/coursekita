@@ -27,24 +27,23 @@ body {
   margin: 0 72px 0 72px;
 }
 
-.btn-secondary {
-  padding: 18px 79px 18px 79px;
+.btn {
   display: inline-block;
-  background: rgba(205, 68, 81, 0.5);
-  border: 4px solid #cd4451;
   box-sizing: border-box;
-  border-radius: 10px;
   text-align: center;
   text-decoration: none;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 28px;
-  /* identical to box height, or 156% */
-
-  color: #903040;
 }
 
+/* 
+Notes:
+1. Font sudah di import di CSS
+2. Reset Margin, Padding, dll
+3. Ada kelas BUTTON secara general, tinggal panggil "btn ..."
+4. Responsive mulai dari Resolusi 1980px kebawah? soalnya di FIGMA Framenya Resolusi 1440px WKWK  
+
+ */
+
+/* ARIF */
 .learning-process {
   position: relative;
   padding: 80px 433px 46px 431px;
@@ -160,6 +159,22 @@ body {
   color: #f48c06;
 }
 
+.btn-search {
+  padding: 18px 79px 18px 79px;
+  background: rgba(205, 68, 81, 0.5);
+  border: 4px solid #cd4451;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #903040;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
 .right-course {
   margin: 92px 50px 65px 0;
   display: flex;
@@ -168,21 +183,23 @@ body {
 
 .right-course p {
   padding: 18px 0 18px 0;
+  color: #903040;
 }
 
 .arrow-bottom {
   padding: 18px 0 18px 0;
-  color: black;
+  color: #903040;
   cursor: pointer;
 }
 
 .container-courses {
+  margin: 0 50px 0 50px;
   display: flex;
   justify-content: space-between;
 }
 
 .courses {
-  height: 492px;
+  height: 498px;
   width: 335px;
   background: #ffffff;
   filter: drop-shadow(0px 20px 50px rgba(205, 68, 81, 0.2));
@@ -200,14 +217,118 @@ body {
 
 .courses-content {
   width: 335px;
-  height: 250px;
+  height: 256px;
   background: rgba(205, 68, 81, 0.25);
   border-radius: 0px 30px 30px 30px;
 }
+
 .courses-content h1 {
-  padding: 11px 15px 0 15px;
-  font-size: 14px;
+  padding: 12px 15px 0 15px;
+  font-size: 16px;
+  color: #903040;
 }
+
 .courses-content p {
-  padding: 12px 15px 19px 15px;
+  padding: 8px 15px 0 15px;
+  height: 85px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #903040;
 }
+
+.divider-content {
+  display: block;
+  width: 335px;
+  border-bottom: 4px solid #903040;
+}
+
+.star {
+  height: 18px;
+  width: 18px;
+  padding: 0 0 0 5px;
+  color: #908c30;
+}
+
+.container-rating {
+  display: flex;
+}
+
+.rating-course-left {
+  margin: 18px 12px 22px 10px;
+  display: flex;
+}
+
+.rating {
+  padding-top: 3px;
+}
+
+.rating-text p {
+  padding: 0 0 0 8px;
+  height: 17px;
+}
+
+.container-course-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-course-info-left {
+  display: flex;
+}
+
+.icon-play {
+  padding: 14px 0 16px 13px;
+  color: #903040;
+}
+
+.icon-graduate {
+  padding: 14px 0 16px 0;
+  color: #903040;
+}
+.container-course-info-left p {
+  padding: 19px 8px 22px 7px;
+  height: 19px;
+  color: #903040;
+}
+
+.rating-course-right {
+  display: flex;
+}
+
+.rating-course-right p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 119.5%;
+  letter-spacing: 0.05em;
+  color: #eeeeee;
+}
+
+.btn-join {
+  margin: 12px 0 15px 0;
+  height: 33px;
+  width: 105px;
+  background: #cd4451;
+
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.container-course-info-right {
+  display: flex;
+  padding-right: 25px;
+}
+
+.container-course-info-right p {
+  padding: 19px 8px 22px 7px;
+  height: 19px;
+  color: #903040;
+}
+
+/* ARIF */
