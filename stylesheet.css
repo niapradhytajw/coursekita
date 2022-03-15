@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+/* @import 'responsive.css'; */
 
 /* font-family: 'Poppins', sans-serif; */
 html,
@@ -39,9 +40,68 @@ Notes:
 1. Font sudah di import di CSS
 2. Reset Margin, Padding, dll
 3. Ada kelas BUTTON secara general, tinggal panggil "btn ..."
-4. Responsive mulai dari Resolusi 1980px kebawah? soalnya di FIGMA Framenya Resolusi 1440px WKWK  
+4. Responsive mulai dari Resolusi 1920px kebawah? soalnya di FIGMA Framenya Resolusi 1440px WKWK  
 
  */
+
+/* ANAM */
+.about {
+  text-align: center;
+  background-color: #fffff0;
+  padding: 50px 15px;
+  border: 1px solid #ec6069;
+}
+
+.about h1 {
+  color: #cd4451;
+}
+
+.about span {
+  color: #8ed0fb;
+}
+
+.about p {
+  color: #903040;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.cooperate-wrapper {
+  color: #cd4451;
+  text-align: center;
+}
+
+.cooperate-title {
+  padding: 20px 0px;
+  margin-bottom: 20px;
+}
+
+.center {
+  margin: auto;
+  width: 25%;
+  border-bottom: 5px solid #ff7c83;
+  padding: 10px;
+}
+
+.cooperate-title h1 {
+}
+
+.cooperate {
+  display: flex;
+}
+
+.cooperate-icon {
+  /* float: left; */
+  width: 25%;
+}
+
+.cooperate-logo img {
+  height: 150px;
+}
+
+.cooperate-icon img {
+}
+/* ANAM */
 
 /* ARIF */
 .learning-process {
