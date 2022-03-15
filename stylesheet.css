@@ -24,6 +24,14 @@ body {
   background-color: #fbf2f2;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 .container {
   margin: 0 72px 0 72px;
 }
@@ -44,8 +52,192 @@ Notes:
 
  */
 
+/* NIA */
+
+.top-wrapper {
+  padding: 150px 0 150px 0;
+  background-size: cover;
+  color: #000000;
+  text-align: left;
+}
+.top-wrapper h3 {
+  position: absolute;
+  width: 302px;
+  height: 36px;
+  left: 72px;
+  top: 193px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+.top-wrapper h1 {
+  position: absolute;
+  width: 910px;
+  height: 168px;
+  left: 72px;
+  top: 249px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: 0.05em;
+
+  color: #cd4451;
+}
+.top-wrapper p {
+  /*opacity: 0.7;
+  margin-right: 800px; */
+
+  position: absolute;
+  width: 616px;
+  height: 81px;
+  left: 72px;
+  top: 462px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+.logo {
+  width: 60px;
+  margin-top: 0px;
+}
+header {
+  position: absolute;
+  width: 1440px;
+  height: 200px;
+  left: 0px;
+  top: 0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+  margin-right: 100px;
+}
+.header-right a {
+  line-height: 100px;
+  padding: 0 50px;
+  color: #000000;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.header-right a:hover {
+  color: #ffffff;
+}
+.icon-search-navbar {
+  width: 39px;
+  height: 38px;
+  color: #000000;
+  margin: 35px;
+  cursor: pointer;
+}
+
+.icon-search-navbar:hover {
+  color: #ffffff;
+}
+
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+.kartun {
+  /*float: right ;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 750px;
+  top: 145px;
+
+  background: rgba(205, 68, 81, 0.2);
+  border-radius: 120px 120px 0px 0px; */
+
+  position: absolute;
+  width: 510px;
+  height: 515px;
+  left: 799px;
+  top: 193px;
+
+  background: rgba(205, 68, 81, 0.2);
+  border-radius: 120px 120px 0px 0px;
+  position: absolute;
+}
+
+.btn-wrapper {
+  position: absolute;
+  width: 200px;
+  height: 64px;
+  left: 72px;
+  background: #cd4451;
+  border-radius: 30px;
+  top: 600px;
+  /*box-shadow: 0 7px #903040;
+  top: 600px;
+  border-bottom: 1px solid #eee;
+  padding: 2px 0;
+  */
+  position: absolute;
+  left: 5.5%;
+  right: 30.5%;
+  top: 100.69%;
+  bottom: 28.12%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /*identicaltoboxheight*/
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  color: #e5e5e5;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.header {
+  height: 200px;
+  background-color: #cd4451;
+}
+.header-highlight {
+  padding: 63px 0;
+  margin: 708px 190px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* NIA */
+
 /* ANAM */
 .about {
+  position: absolute;
+  top: 980px;
   text-align: center;
   background-color: #fffff0;
   padding: 50px 15px;
@@ -67,6 +259,8 @@ Notes:
 }
 
 .cooperate-wrapper {
+  position: relative;
+  top: 900px;
   color: #cd4451;
   text-align: center;
 }
@@ -83,15 +277,11 @@ Notes:
   padding: 10px;
 }
 
-.cooperate-title h1 {
-}
-
 .cooperate {
   display: flex;
 }
 
 .cooperate-icon {
-  /* float: left; */
   width: 25%;
 }
 
@@ -99,12 +289,11 @@ Notes:
   height: 150px;
 }
 
-.cooperate-icon img {
-}
 /* ANAM */
 
 /* ARIF */
 .learning-process {
+  top: 900px;
   position: relative;
   padding: 80px 433px 46px 431px;
 }
@@ -133,6 +322,7 @@ Notes:
 .container-learning {
   display: flex;
   position: relative;
+  top: 900px;
   height: 300px;
   padding: 0 50px 0 50px;
   justify-content: space-between;
@@ -154,30 +344,18 @@ Notes:
 }
 
 .learnings:hover {
-  background: rgba(205, 68, 81, 0.6);
-  box-shadow: 0px 20px 50px rgba(205, 68, 81, 0.8);
+  background: #ffffff;
+  filter: drop-shadow(5px 5px 20px rgba(205, 68, 81, 0.7));
+  -webkit-filter: drop-shadow(5px 5px 20px rgba(205, 68, 81, 0.7));
 }
 
 .learnings:hover .learning-content h1 {
-  color: #ffffff;
+  color: #cd4451;
 }
 
 .learnings:hover .learning-content p {
-  color: #ffffff;
+  color: #cd4451;
   opacity: 0.85;
-}
-
-.learnings:hover .gradient-icon1 {
-  filter: drop-shadow(0px 4px 4px rgba(205, 68, 81, 0.85));
-}
-.learnings:hover .gradient-icon2 {
-  filter: drop-shadow(0px 4px 4px rgba(205, 68, 81, 0.85));
-}
-.learnings:hover .gradient-icon3 {
-  filter: drop-shadow(0px 4px 4px rgba(205, 68, 81, 0.85));
-}
-.learnings:hover .gradient-icon4 {
-  filter: drop-shadow(0px 4px 4px rgba(205, 68, 81, 0.85));
 }
 
 .learning-icon {
@@ -237,6 +415,11 @@ Notes:
   opacity: 0.5;
 }
 
+.category-course {
+  top: 900px;
+  position: relative;
+}
+
 .left-course {
   float: left;
   margin: 16px 180px 50px 50px;
@@ -254,10 +437,11 @@ Notes:
   color: #f48c06;
 }
 
-.btn-search {
+.input-search {
   padding: 13px 15px;
   width: 50%;
   height: 60%;
+  display: inline-block;
   background: rgba(205, 68, 81, 0.5);
   border: 4px solid #cd4451;
   font-style: normal;
@@ -265,7 +449,9 @@ Notes:
   font-size: 18px;
   line-height: 28px;
   color: #903040;
-  cursor: text;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -278,12 +464,12 @@ Notes:
   -o-transition: all 0.2s ease-in;
 }
 
-.btn-search:hover {
+.input-search:hover {
   box-shadow: 3px 10px 15px rgba(205, 68, 81, 0.45);
 }
 
-.btn-search:focus {
-  color: rgba(205, 68, 81, 0.5);
+::placeholder {
+  color: #903040;
 }
 
 .right-course {
@@ -310,6 +496,8 @@ Notes:
 
 .container-courses {
   margin: 0 50px 0 50px;
+  position: relative;
+  top: 900px;
   display: flex;
   justify-content: space-between;
   cursor: pointer;
@@ -416,6 +604,7 @@ Notes:
 }
 
 .rating-course-right p {
+  height: auto;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -434,24 +623,33 @@ Notes:
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
-  transition: all 0.5s ease-in;
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -ms-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
 }
 
 .btn-join:hover {
+  background-color: #ffffff;
+  border: 1px solid #cd4451;
   box-shadow: 3px 10px 15px rgba(205, 68, 81, 0.45);
+}
+
+.btn-join:hover p {
+  color: #cd4451;
 }
 
 .btn-join:active {
   position: relative;
   top: 4px;
-  background: rgba(205, 68, 81, 0.75);
+  background: #cd4451;
   box-shadow: none;
 }
 
+.btn-join:active p {
+  color: #ffffff;
+}
 .container-course-info-right {
   display: flex;
   padding-right: 25px;
@@ -464,3 +662,104 @@ Notes:
 }
 
 /* ARIF */
+
+/* NAOMI */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #ffffff;
+}
+
+.footer {
+  top: 950px;
+  position: relative;
+  background-color: #cd4451;
+  padding-top: 25px;
+}
+
+.row .logo {
+  font-size: 20px;
+  color: #ffffff;
+  padding-right: 430px;
+  text-transform: capitalize;
+  font-weight: 700;
+  position: relative;
+}
+
+.footer-col {
+  width: 20%;
+  padding: 0 20px;
+}
+
+.footer-col h4 {
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  font-weight: 700;
+  position: relative;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.footer-col ul li a {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #ffffff;
+  display: block;
+  transition: all 0.3s ease;
+  padding-bottom: 10px;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 5px;
+}
+
+.contact .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 10px 10px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5 ease;
+}
+
+.contact .social-links a:hover {
+  float: right;
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+.contact p {
+  font-size: 15px;
+  color: #ffffff;
+  padding-top: 10px;
+  float: right;
+}
+
+.contact h2 {
+  font-size: 15px;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+/* NAOMI */
