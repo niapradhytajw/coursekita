@@ -4,3 +4,10 @@
 ## Informasi:
 1. Segala Assets yang kami gunakan mengambil dari [Freepick](https://www.freepik.com/home), [Heroicons](https://heroicons.com/), & [Figma Community](https://www.figma.com/community/web_design).
 2. Kami menggunakan Assets ini hanya sebatas pembelajaran dan tidak dikomersilkan.
+
+## Anggota:
+1. Muhamad Saiful Anam
+2. Muhammad Aries Amarullah
+3. Naomi Yuni Intan Hutagalung
+4. Nia Pradhyta Jaya Wardani
+5. Nur Arif Setiawan
