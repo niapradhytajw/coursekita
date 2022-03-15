@@ -84,39 +84,27 @@ Notes:
   height: 168px;
   left: 72px;
   top: 249px;
-
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 70px;
   line-height: 84px;
   letter-spacing: 0.05em;
-
   color: #cd4451;
 }
 .top-wrapper p {
-  /*opacity: 0.7;
-  margin-right: 800px; */
-
   position: absolute;
   width: 616px;
   height: 81px;
   left: 72px;
   top: 462px;
-
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: 0.05em;
-
   color: #000000;
 }
-.logo {
-  width: 60px;
-  margin-top: 0px;
-}
+
 header {
   position: absolute;
   width: 1440px;
@@ -126,21 +114,54 @@ header {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 60px;
+  margin: 14px 6px 0 0;
+}
+
 .header-left {
-  float: left;
+  display: flex;
 }
+
+.header-left h1 {
+  margin: 25px 0 0 0;
+}
+
+.header-left h1 .logo-text01 {
+  color: #cd4451;
+}
+
+.header-left h1 .logo-text02 {
+  color: #8ed0fb;
+}
+
 .header-right {
-  float: right;
-  margin-right: 100px;
+  margin: 37px 0 0 230px;
 }
+
+.header-right ul {
+  display: flex;
+}
+
+.header-right ul li {
+  padding-left: 60px;
+}
+
 .header-right a {
-  line-height: 100px;
-  padding: 0 50px;
   color: #000000;
   display: block;
-  float: left;
-  transition: all 0.5s;
+  transition: all 0.2s ease-out;
   text-decoration: none;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
 }
 .header-right a:hover {
   color: #ffffff;
@@ -149,8 +170,12 @@ header {
   width: 39px;
   height: 38px;
   color: #000000;
-  margin: 35px;
   cursor: pointer;
+  transition: all 0.2 ease-out;
+  -webkit-transition: all 0.2 ease-out;
+  -moz-transition: all 0.2 ease-out;
+  -ms-transition: all 0.2 ease-out;
+  -o-transition: all 0.2 ease-out;
 }
 
 .icon-search-navbar:hover {
@@ -165,22 +190,11 @@ span.menu-icon {
   display: none;
 }
 .kartun {
-  /*float: right ;
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  left: 750px;
-  top: 145px;
-
-  background: rgba(205, 68, 81, 0.2);
-  border-radius: 120px 120px 0px 0px; */
-
   position: absolute;
   width: 510px;
-  height: 515px;
+  height: 565px;
   left: 799px;
   top: 193px;
-
   background: rgba(205, 68, 81, 0.2);
   border-radius: 120px 120px 0px 0px;
   position: absolute;
@@ -220,13 +234,15 @@ span.menu-icon {
   -o-border-radius: 30px;
 }
 
-.header {
+.highlight {
+  position: relative;
+  top: 400px;
   height: 200px;
   background-color: #cd4451;
 }
-.header-highlight {
-  padding: 63px 0;
-  margin: 708px 190px;
+
+.highlight-content {
+  padding: 63px 197px;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -237,7 +253,7 @@ span.menu-icon {
 /* ANAM */
 .about {
   position: absolute;
-  top: 980px;
+  top: 1000px;
   text-align: center;
   background-color: #fffff0;
   padding: 50px 15px;
@@ -260,7 +276,7 @@ span.menu-icon {
 
 .cooperate-wrapper {
   position: relative;
-  top: 900px;
+  top: 780px;
   color: #cd4451;
   text-align: center;
 }
@@ -293,7 +309,7 @@ span.menu-icon {
 
 /* ARIF */
 .learning-process {
-  top: 900px;
+  top: 780px;
   position: relative;
   padding: 80px 433px 46px 431px;
 }
@@ -322,7 +338,7 @@ span.menu-icon {
 .container-learning {
   display: flex;
   position: relative;
-  top: 900px;
+  top: 780px;
   height: 300px;
   padding: 0 50px 0 50px;
   justify-content: space-between;
@@ -416,7 +432,7 @@ span.menu-icon {
 }
 
 .category-course {
-  top: 900px;
+  top: 780px;
   position: relative;
 }
 
@@ -497,7 +513,7 @@ span.menu-icon {
 .container-courses {
   margin: 0 50px 0 50px;
   position: relative;
-  top: 900px;
+  top: 780px;
   display: flex;
   justify-content: space-between;
   cursor: pointer;
