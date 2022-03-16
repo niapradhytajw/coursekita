@@ -65,12 +65,6 @@
   } */
 }
 
-/* @media all and (max-width: 810px) {
-  header {
-    display: none;
-  }
-} */
-
 @media all and (max-width: 574px) {
   .footer-col {
     width: 100%;
