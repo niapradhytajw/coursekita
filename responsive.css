@@ -1,4 +1,8 @@
 @media all and (min-width: 1920px) {
+  header .container {
+    width: 100%;
+  }
+
   .container {
     margin: 0 15%;
   }
@@ -16,7 +20,7 @@
   }
 
   .header-right {
-    left: 45%;
+    left: 15px;
     position: relative;
     margin-left: 0;
   }
@@ -389,7 +393,7 @@
   }
 
   .btn-join {
-    margin: 6px 0 15px 0;
+    margin: 6px 0 15px 12px;
   }
 
   .price-wrapper {
