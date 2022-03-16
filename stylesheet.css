@@ -31,7 +31,7 @@ li {
 }
 
 .container {
-  margin: 0 72px 0 72px;
+  margin: 0 73px 0 72px;
 }
 
 .btn {
@@ -56,6 +56,7 @@ li {
   color: #000000;
   text-align: left;
 }
+
 .top-wrapper h3 {
   position: absolute;
   width: 302px;
@@ -196,7 +197,7 @@ span.menu-icon {
   position: absolute;
   width: 510px;
   height: 565px;
-  left: 799px;
+  left: 853px;
   top: 193px;
   background: rgba(205, 68, 81, 0.2);
   border-radius: 120px 120px 0px 0px;
@@ -919,17 +920,28 @@ ul {
 }
 
 .row .logo {
+  display: flex;
   font-size: 20px;
   color: #ffffff;
-  padding-right: 430px;
+  padding-right: 10px;
   text-transform: capitalize;
   font-weight: 700;
   position: relative;
 }
 
+.logo-footer {
+  height: 48px;
+}
+
+.footer-right {
+  display: flex;
+  padding-left: 451px;
+}
+
 .footer-col {
   display: flex;
-  width: 20%;
+  width: 156px;
+  padding-left: 100px;
 }
 
 .footer-col h4 {
