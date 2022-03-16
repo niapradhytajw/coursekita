@@ -51,6 +51,11 @@
     flex: auto;
   }
 
+  .testimonials p {
+    font-size: 14.12px;
+    line-height: 26px;
+  }
+
   .row {
     justify-content: space-between;
   }
@@ -478,5 +483,263 @@
   }
 }
 
-@media all and (max-width: 574px) {
+@media all and (max-width: 428px) {
+  header .container {
+    width: 20%;
+  }
+
+  .container {
+    width: 19.5%;
+  }
+
+  .responsive {
+    display: block;
+  }
+
+  .logo {
+    width: 50px;
+    margin: 20px 20px 0 0;
+    height: 55px;
+  }
+
+  .top-wrapper .container {
+    width: 90%;
+  }
+
+  .top-wrapper h3 {
+    left: 50%;
+    font-size: 18px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+
+  .top-wrapper h1 {
+    top: 300px;
+    width: 372px;
+    left: 50%;
+    line-height: 38px;
+    font-size: 28px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+
+  .top-wrapper p {
+    width: 67%;
+    top: 312px;
+    font-size: 12px;
+  }
+
+  .btn-wrapper {
+    width: 192px;
+    height: 62px;
+    top: 465px;
+  }
+
+  .highlight {
+    top: 236px;
+    height: 140px;
+  }
+
+  .highlight-content {
+    padding: 46px 28px;
+  }
+
+  .highlight-content li h1 {
+    font-size: 16px;
+  }
+
+  .highlight-content li p {
+    font-size: 10px;
+  }
+
+  .about {
+    top: 675px;
+  }
+
+  .about h1 {
+    font-size: 26px;
+  }
+
+  .about p {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 12px;
+  }
+
+  .cooperate-wrapper {
+    top: 528px;
+  }
+
+  .cooperate-logo img {
+    height: 116px;
+  }
+
+  .center {
+    font-size: 26px;
+  }
+
+  .cooperate-icon {
+    width: 80%;
+  }
+
+  .learning-process {
+    top: 550px;
+  }
+  .container {
+    width: 90%;
+  }
+
+  .learning-process {
+    padding: 7% 5%;
+  }
+
+  .learning-process h1 {
+    padding-bottom: 4px;
+    font-size: 26px;
+  }
+
+  .learning-process p {
+    font-size: 12px;
+  }
+
+  .container-learning {
+    top: 564px;
+  }
+
+  .learnings {
+    margin-left: 16px;
+  }
+
+  .category-course {
+    top: 1600px;
+  }
+
+  .left-course {
+    font-size: 13px;
+    line-height: 100%;
+  }
+
+  .right-course {
+    margin: 0 0;
+  }
+
+  .link {
+    left: 10%;
+    justify-content: center;
+  }
+
+  .input-search {
+    top: 22px;
+  }
+
+  .container-courses {
+    top: 1640px;
+  }
+
+  .price-wrapper {
+    top: 1674px;
+  }
+
+  .price {
+    width: 92%;
+  }
+
+  .testimonial-wrapper {
+    top: 3728px;
+  }
+
+  .testimonial {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .container-testimonial {
+    margin: auto;
+    padding: 0 10px;
+    flex-wrap: wrap;
+  }
+
+  .testimonials {
+    width: 85%;
+    margin: 12px 0;
+  }
+
+  .testimonials img {
+    left: 50%;
+    transform: translate(-50%, -25%);
+    position: relative;
+    margin-top: 28px;
+  }
+
+  .testimonials h2 {
+    text-align: center;
+  }
+
+  .testimonials h1 {
+    text-align: center;
+  }
+
+  .testimonials p {
+    text-align: center;
+  }
+
+  .rating-testimonials {
+    margin: 9px 116px;
+  }
+
+  .footer {
+    top: 3780px;
+  }
+
+  .footer-left {
+    margin-left: 20%;
+  }
+
+  .footer-col {
+    padding-left: 0;
+    flex: auto;
+    width: 95%;
+
+    justify-content: center;
+  }
+
+  .footer-col ul {
+    margin-left: 0;
+  }
+
+  .footer-col h4 {
+    text-align: center;
+  }
+
+  .footer-col ul li a {
+    text-align: center;
+  }
+
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact h2 {
+    float: none;
+    flex: auto;
+    width: 80%;
+    text-align: center;
+    padding: 16px;
+  }
+
+  .contact p {
+    font-size: 12px;
+  }
+
+  .footer-icon {
+    width: 24px;
+    margin: 6px;
+  }
 }
