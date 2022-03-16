@@ -1,25 +1,44 @@
 @media all and (min-width: 1920px) {
   .container {
-    margin: 0 132px 0 132px;
-    width: 110%;
+    width: 100%;
+    margin: 0 15%;
+  }
+
+  .logo {
+    margin: 11% 5%;
   }
 
   .header-left h1 {
-    margin: 35px 0 0 0;
+    margin-top: 14%;
   }
 
-  /* .header-right ul li a {
-    font-size: 170%;
-    padding-top: 5px;
-  } */
+  .hero-sections-left h1 {
+    margin-left: 8%;
+  }
+
+  .hero-sections-left h3 {
+    margin-left: 8%;
+  }
+
+  .hero-sections-left p {
+    margin-left: 8%;
+  }
+
+  .btn-wrapper {
+    left: 222px;
+  }
 
   .kartun {
-    left: 55%;
-    width: 32%;
-    height: 11%;
+    left: 59%;
+    width: 28%;
+    height: auto;
   }
 
-  .learning-process {
+  .highlight-content li {
+    flex: auto;
+  }
+
+  /* .learning-process {
     padding: auto;
   }
 
@@ -43,10 +62,16 @@
   .courses {
     width: 22%;
     height: 100%;
-  }
+  } */
 }
 
-@media (max-width: 574px) {
+/* @media all and (max-width: 810px) {
+  header {
+    display: none;
+  }
+} */
+
+@media all and (max-width: 574px) {
   .footer-col {
     width: 100%;
   }
