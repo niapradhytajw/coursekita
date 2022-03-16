@@ -188,8 +188,278 @@
   }
 }
 
-@media all and (max-width: 574px) {
+@media all and (max-width: 810px) {
+  header .container {
+    width: 45%;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .responsive {
+    width: 38px;
+    height: auto;
+    margin: 33px 0;
+    cursor: pointer;
+  }
+
+  .top-wrapper h3 {
+    width: 664px;
+  }
+
+  .top-wrapper h1 {
+    width: 660px;
+    text-align: center;
+  }
+
+  .top-wrapper p {
+    width: 658px;
+    text-align: center;
+  }
+
+  .kartun {
+    display: none;
+  }
+
+  .btn-wrapper {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .highlight-content {
+    padding: 59px 70px;
+  }
+
+  .about .container {
+    width: 90%;
+  }
+
+  .about p {
+    width: 100%;
+    margin: 0 0;
+  }
+
+  .about h1 {
+    font-size: 40px;
+  }
+
+  .cooperate-wrapper .container {
+    width: 90%;
+  }
+
+  .center {
+    width: 50%;
+    font-size: 40px;
+  }
+
+  .cooperate {
+    flex-wrap: wrap;
+  }
+
+  .cooperate-icon {
+    width: 50%;
+    flex: auto;
+    padding: 25px 0;
+  }
+
+  .learning-process {
+    padding: 7% 15%;
+  }
+
+  .container-learning {
+    flex-wrap: wrap;
+  }
+
+  .learnings {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+
+  .category-course {
+    top: 1350px;
+  }
+
+  .left-course {
+    float: none;
+    margin: 0 40px 0 40px;
+  }
+
+  .left-course h1 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .right-course {
+    margin: 36px 0 30px 47px;
+    display: block;
+  }
+
+  .link {
+    position: relative;
+    left: 50%;
+    transform: translate(-10%, -10%);
+  }
+
+  .input-search {
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 40px;
+  }
+
+  .container-courses {
+    top: 1388px;
+  }
+
+  .container-courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .courses {
+    height: 438px;
+    width: 280px;
+    margin-bottom: 24px;
+  }
+
+  .courses img {
+    width: 275px;
+    height: auto;
+  }
+
+  .courses-content {
+    width: 280px;
+    height: 239px;
+  }
+
+  .courses-content h1 {
+    font-size: 15px;
+  }
+
+  .courses-content p {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .rating-course-left {
+    margin: 14px 4px 0px 6px;
+  }
+
+  .rating-course-left p {
+    line-height: 12px;
+  }
+
+  .divider-content {
+    display: block;
+    width: 280px;
+  }
+
+  .rating {
+    margin-left: 14px;
+  }
+
+  .star {
+    height: 12px;
+    width: 12px;
+    padding: 0px 0px 6px 0;
+  }
+
+  .rating-text p {
+    font-size: 9px;
+    padding: 4px 0 0 8px;
+  }
+
+  .btn-join {
+    margin: 6px 0 15px 0;
+  }
+
+  .price-wrapper {
+    top: 1453px;
+  }
+
+  .header-price {
+    padding: 8px 0 0 0;
+  }
+
+  .header-price h1 {
+    font-size: 38px;
+  }
+
+  .header-price p {
+    font-size: 14px;
+  }
+
+  .prices {
+    flex-wrap: wrap;
+  }
+
+  .prices-content {
+    margin-top: 20px;
+  }
+
+  .testimonial-wrapper {
+    top: 2689px;
+  }
+
+  .testimonial {
+    padding: 0px 25px;
+  }
+
+  .testimonials h2 {
+    font-size: 18px;
+  }
+
+  .testimonials p {
+    font-size: 10.12px;
+  }
+
+  .rating-testimonials {
+    margin: 9px 0;
+    font-size: 11px;
+    line-height: 22px;
+  }
+
+  .footer {
+    top: 2730px;
+  }
+
   .footer-col {
     width: 100%;
   }
+
+  .footer-right {
+    display: flex;
+    padding-left: 0;
+    flex-wrap: wrap;
+    width: 99%;
+  }
+
+  .footer-col {
+    padding-left: 0;
+    width: 33%;
+  }
+
+  .footer-col ul {
+    margin-left: 50px;
+  }
+
+  .footer-left {
+    margin-left: 51px;
+    margin-bottom: 15px;
+  }
+
+  .footer-icon {
+    width: 26px;
+    height: auto;
+    margin: 5px;
+  }
+}
+
+@media all and (max-width: 574px) {
 }
