@@ -53,7 +53,11 @@
   }
 
   .footer-col {
-    width: 11%;
+    width: 166px;
+  }
+
+  .footer-right {
+    display: flex;
   }
 }
 
@@ -123,6 +127,64 @@
 
   .row .logo {
     padding-right: 422px;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .container {
+    margin: 0 5% 0 5%;
+  }
+
+  .header-right {
+    margin: 32px 158px 0 0;
+  }
+
+  .top-wrapper h1 {
+    font-size: 58px;
+    width: 650px;
+  }
+
+  .top-wrapper p {
+    width: 612px;
+    top: 430px;
+    font-size: 18px;
+  }
+
+  .kartun {
+    left: 54.5%;
+  }
+
+  .learnings {
+    width: 250px;
+  }
+
+  .learning-content h1 {
+    font-size: 22px;
+  }
+
+  .prices-content {
+    width: 330px;
+  }
+
+  .prices-btn {
+    margin: 0 0;
+  }
+
+  .testimonial-wrapper {
+    top: 1740px;
+  }
+
+  .footer {
+    top: 1790px;
+  }
+
+  .row .logo {
+    padding-right: 0;
+  }
+
+  .footer-right {
+    display: flex;
+    padding-left: 297px;
   }
 }
 
