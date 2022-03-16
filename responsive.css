@@ -1,6 +1,5 @@
 @media all and (min-width: 1920px) {
   .container {
-    width: 100%;
     margin: 0 15%;
   }
 
@@ -10,6 +9,12 @@
 
   .header-left h1 {
     margin-top: 14%;
+  }
+
+  .header-right {
+    left: 45%;
+    position: relative;
+    margin-left: 0;
   }
 
   .hero-sections-left h1 {
@@ -38,31 +43,18 @@
     flex: auto;
   }
 
-  /* .learning-process {
-    padding: auto;
-  }
-
-  .learning-process h1 {
-    padding-bottom: 34px;
-    font-size: 55px;
-    line-height: 55px;
-    letter-spacing: 0.5px;
-  }
-
-  .learning-process p {
-    font-size: 24px;
-  }
-
-  .container-courses {
-    height: 400px;
-    padding: 0 110px 0 110px;
+  .row {
     justify-content: space-between;
   }
 
-  .courses {
-    width: 22%;
-    height: 100%;
-  } */
+  .row .logo {
+    margin: 0 10% 0 0;
+    padding-right: 25%;
+  }
+
+  .footer-col {
+    width: 11%;
+  }
 }
 
 @media all and (max-width: 574px) {
