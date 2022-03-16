@@ -48,8 +48,6 @@ li {
   color: #f48c06;
 }
 
-/* NIA */
-
 .top-wrapper {
   padding: 150px 0 150px 0;
   background-size: cover;
@@ -109,6 +107,10 @@ header {
   top: 0px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.responsive {
+  display: none;
 }
 
 .header-right ul li a {
@@ -261,9 +263,7 @@ span.menu-icon {
 .highlight-content li p {
   color: #ffffff;
 }
-/* NIA */
 
-/* ANAM */
 .about {
   position: absolute;
   top: 1000px;
@@ -699,9 +699,6 @@ span.menu-icon {
   color: #903040;
 }
 
-/* ARIF */
-
-/* AMAR */
 .price-wrapper {
   position: relative;
   background-color: #cd4451;
@@ -903,9 +900,6 @@ span.menu-icon {
   justify-content: space-between;
 }
 
-/* AMAR */
-
-/* NAOMI */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -1018,4 +1012,3 @@ ul {
   filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(184deg) brightness(101%) contrast(102%);
   -webkit-filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(184deg) brightness(101%) contrast(102%);
 }
-/* NAOMI */
