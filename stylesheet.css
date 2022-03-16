@@ -66,18 +66,16 @@ Notes:
   height: 36px;
   left: 72px;
   top: 193px;
-
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
-
   text-align: center;
   letter-spacing: 0.05em;
-
   color: #000000;
 }
+
 .top-wrapper h1 {
   position: absolute;
   width: 910px;
@@ -91,6 +89,7 @@ Notes:
   letter-spacing: 0.05em;
   color: #cd4451;
 }
+
 .top-wrapper p {
   position: absolute;
   width: 616px;
@@ -113,6 +112,11 @@ header {
   top: 0px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header-right ul li a {
+  font-size: 20px;
+  padding-top: 5px;
 }
 
 .navbar {
@@ -163,9 +167,11 @@ header {
   -ms-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
 }
+
 .header-right a:hover {
   color: #ffffff;
 }
+
 .icon-search-navbar {
   width: 39px;
   height: 38px;
@@ -189,6 +195,7 @@ span.menu-icon {
   padding: 21px 0;
   display: none;
 }
+
 .kartun {
   position: absolute;
   width: 510px;
@@ -210,11 +217,28 @@ span.menu-icon {
   cursor: pointer;
   letter-spacing: 0.05em;
   color: #e5e5e5;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn-wrapper:hover {
+  background: #ffffff;
+  filter: drop-shadow(5px 5px 20px rgba(205, 68, 81, 0.7));
+  -webkit-filter: drop-shadow(5px 5px 20px rgba(205, 68, 81, 0.7));
+}
+
+.btn-wrapper:hover a {
+  color: #cd4451;
+}
+
+.btn-wrapper a {
+  color: #fff;
+  padding: 18px;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .highlight {
@@ -231,6 +255,13 @@ span.menu-icon {
   text-align: center;
 }
 
+.highlight-content li h1 {
+  color: #ffffff;
+}
+
+.highlight-content li p {
+  color: #ffffff;
+}
 /* NIA */
 
 /* ANAM */
@@ -679,7 +710,7 @@ span.menu-icon {
 .header-price h1 {
   padding: 56px 0 15px 0;
   font-size: 40px;
-  font-weight: 600, Semi Bold;
+  font-weight: 600;
   font-style: normal;
   color: #ffffff;
 }
@@ -701,18 +732,18 @@ span.menu-icon {
 .prices-content h1 {
   padding: 25px 0 15px 0;
   font-style: normal;
-  font-weight: 700, Bold;
+  font-weight: 700;
   text-align: center;
   font-size: 24px;
   line-height: 45px;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   color: #000000;
 }
 
 .prices-content p {
   padding-bottom: 15px;
   font-style: normal;
-  font-weight: 700, Bold;
+  font-weight: 700;
   text-align: center;
   font-size: 25px;
   line-height: 50px;
@@ -723,11 +754,11 @@ span.menu-icon {
 .prices-content span {
   padding-bottom: 15px;
   font-style: normal;
-  font-weight: 600, Semi Bold;
+  font-weight: 700;
   text-align: center;
   font-size: 45px;
   line-height: 50px;
-  letter-spacing: 0, 83px;
+  letter-spacing: 0.83px;
   color: #cd4451;
 }
 
@@ -747,7 +778,7 @@ span.menu-icon {
 
 .price-info-left p {
   font-size: 16px;
-  font-weight: 400, Regular;
+  font-weight: 400;
   font-style: normal;
   line-height: 16px;
   padding: 15px 15px 15px 15px;
@@ -775,9 +806,9 @@ span.menu-icon {
 
 .price p {
   font-size: 24px;
-  font-weight: 700, Regular;
+  font-weight: 700;
   font-style: normal;
-  letter-spacing: 0, 5px;
+  letter-spacing: 0.5px;
   color: #ffffff;
 }
 
