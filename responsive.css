@@ -57,6 +57,75 @@
   }
 }
 
+@media all and (min-width: 1366px) {
+  .container {
+    margin: 0 72 0 72px;
+  }
+
+  .logo {
+    width: 60px;
+    margin: 20px 6px 0 0;
+    height: 60px;
+  }
+
+  .header-left h1 {
+    margin: 32px 0 0 0;
+    font-size: 26px;
+  }
+
+  .header-right {
+    margin: 36px 92px 0 0;
+  }
+
+  .header-right ul li a {
+    font-size: 18px;
+  }
+
+  .kartun {
+    left: 56.5%;
+  }
+
+  .top-wrapper h1 {
+    font-size: 66px;
+  }
+
+  .btn-wrapper {
+    left: 5%;
+  }
+
+  .learning-process {
+    padding: 7% 20%;
+  }
+
+  .left-course {
+    font-size: 22px;
+  }
+
+  .header-price {
+    padding: 56px 260px 0 260px;
+  }
+
+  .container-testimonial {
+    padding: 0 10px;
+  }
+
+  .testimonial {
+    padding: 0 275px;
+  }
+
+  .testimonials {
+    width: 26%;
+  }
+
+  .testimonials p {
+    padding-top: 14px;
+  }
+
+  .row .logo {
+    padding-right: 422px;
+  }
+}
+
 @media all and (max-width: 574px) {
   .footer-col {
     width: 100%;
