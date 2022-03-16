@@ -11,3 +11,5 @@
 3. Naomi Yuni Intan Hutagalung
 4. Nia Pradhyta Jaya Wardani
 5. Nur Arif Setiawan
+
+## Design [CourseKita](https://www.figma.com/file/K34qWs0ccgmhEWSMox9wXZ/Design-CourseKita.?node-id=0%3A1)
