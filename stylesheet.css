@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
-/* @import 'responsive.css'; */
 
-/* font-family: 'Poppins', sans-serif; */
 html,
 body,
 ul,
@@ -49,15 +47,6 @@ li {
 .color-02 {
   color: #f48c06;
 }
-
-/* 
-Notes:
-1. Font sudah di import di CSS
-2. Reset Margin, Padding, dll
-3. Ada kelas BUTTON secara general, tinggal panggil "btn ..."
-4. Responsive mulai dari Resolusi 1920px kebawah? soalnya di FIGMA Framenya Resolusi 1440px WKWK  
-
- */
 
 /* NIA */
 
@@ -1003,7 +992,6 @@ ul {
   color: #ffffff;
   padding-top: 10px;
   font-weight: bold;
-  /* float: right; */
 }
 
 .contact h2 {
