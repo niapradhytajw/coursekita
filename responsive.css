@@ -1,6 +1,22 @@
 @media all and (min-width: 1920px) {
   .container {
     margin: 0 132px 0 132px;
+    width: 110%;
+  }
+
+  .header-left h1 {
+    margin: 35px 0 0 0;
+  }
+
+  /* .header-right ul li a {
+    font-size: 170%;
+    padding-top: 5px;
+  } */
+
+  .kartun {
+    left: 55%;
+    width: 32%;
+    height: 11%;
   }
 
   .learning-process {
@@ -27,5 +43,11 @@
   .courses {
     width: 22%;
     height: 100%;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
   }
 }
