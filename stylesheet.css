@@ -204,30 +204,13 @@ span.menu-icon {
   position: absolute;
   width: 200px;
   height: 64px;
-  left: 72px;
+  top: 600px;
   background: #cd4451;
-  border-radius: 30px;
-  top: 600px;
-  /*box-shadow: 0 7px #903040;
-  top: 600px;
-  border-bottom: 1px solid #eee;
-  padding: 2px 0;
-  */
-  position: absolute;
-  left: 5.5%;
-  right: 30.5%;
-  top: 100.69%;
-  bottom: 28.12%;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
-  /*identicaltoboxheight*/
   text-align: center;
   cursor: pointer;
   letter-spacing: 0.05em;
   color: #e5e5e5;
+  border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
@@ -679,6 +662,135 @@ span.menu-icon {
 
 /* ARIF */
 
+/* AMAR */
+.price-wrapper {
+  position: relative;
+  background-color: #cd4451;
+  top: 850px;
+  height: 560px;
+}
+
+.header-price {
+  position: relative;
+  padding: 56px 326px 0 326px;
+  text-align: center;
+}
+
+.header-price h1 {
+  padding: 56px 0 15px 0;
+  font-size: 40px;
+  font-weight: 600, Semi Bold;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.header-price p {
+  color: #ffffff;
+}
+
+.container-price {
+  position: relative;
+  padding-top: 40px;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-around;
+}
+
+.prices-content h1 {
+  padding: 25px 0 15px 0;
+  font-style: normal;
+  font-weight: 700, Bold;
+  text-align: center;
+  font-size: 24px;
+  line-height: 45px;
+  letter-spacing: 5%;
+  color: #000000;
+}
+
+.prices-content p {
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: 700, Bold;
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  letter-spacing: 0, 83px;
+  color: #cd4451;
+}
+
+.prices-content span {
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: 600, Semi Bold;
+  text-align: center;
+  font-size: 45px;
+  line-height: 50px;
+  letter-spacing: 0, 83px;
+  color: #cd4451;
+}
+
+.prices-content {
+  width: 359px;
+  height: 639px;
+  background: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 15px 15px 25px 15px;
+}
+
+.price-info-left {
+  display: flex;
+  align-items: center;
+}
+
+.price-info-left p {
+  font-size: 16px;
+  font-weight: 400, Regular;
+  font-style: normal;
+  line-height: 16px;
+  padding: 15px 15px 15px 15px;
+  width: 100%;
+  color: #903040;
+  text-align: left;
+}
+
+.icon-check {
+  padding: 15px 0 15px 10px;
+  color: #903040;
+}
+
+.icon-false {
+  padding: 15px 0 15px 10px;
+  color: #903040;
+}
+
+.price {
+  width: 329px;
+  height: 56px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.price p {
+  font-size: 24px;
+  font-weight: 700, Regular;
+  font-style: normal;
+  letter-spacing: 0, 5px;
+  color: #ffffff;
+}
+
+.btn-join:hover .price {
+  color: #cd4451;
+}
+
+.prices-btn {
+  margin: 0 15px;
+}
+
+/* AMAR */
+
 /* NAOMI */
 .row {
   display: flex;
@@ -696,7 +808,7 @@ ul {
 }
 
 .footer {
-  top: 950px;
+  top: 1300px;
   position: relative;
   background-color: #cd4451;
   padding-top: 25px;
