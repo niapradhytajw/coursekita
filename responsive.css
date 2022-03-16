@@ -30,7 +30,7 @@
   }
 
   .btn-wrapper {
-    left: 222px;
+    left: 11.5%;
   }
 
   .kartun {
@@ -57,7 +57,7 @@
   }
 }
 
-@media all and (min-width: 1366px) {
+@media all and (max-width: 1366px) {
   .container {
     margin: 0 72 0 72px;
   }
