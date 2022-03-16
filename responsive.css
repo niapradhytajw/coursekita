@@ -214,6 +214,7 @@
   }
 
   .responsive {
+    display: block;
     width: 38px;
     height: auto;
     margin: 33px 0;
