@@ -1,6 +1,6 @@
 # DTSxProgate-AssesmentTeam10_CourseKita
 
-### CourseKita merupakan Brand yang kami ciptakan untuk memenuhi Tugas Kelompok Digitalent Scholarship x Progate.
+### [CourseKita](https://setiawannurarif.github.io/coursekita/) merupakan Brand yang kami ciptakan untuk memenuhi Tugas Kelompok Digitalent Scholarship x Progate.
 ## Informasi:
 1. Segala Assets yang kami gunakan mengambil dari [Freepick](https://www.freepik.com/home), [Heroicons](https://heroicons.com/), & [Figma Community](https://www.figma.com/community/web_design).
 2. Kami menggunakan Assets ini hanya sebatas pembelajaran dan tidak dikomersilkan.
@@ -13,3 +13,4 @@
 5. Nur Arif Setiawan
 
 ## Design [CourseKita](https://www.figma.com/file/K34qWs0ccgmhEWSMox9wXZ/Design-CourseKita.?node-id=0%3A1)
+## Go to [CourseKita](https://setiawannurarif.github.io/coursekita/)
