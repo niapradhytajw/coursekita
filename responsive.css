@@ -1,6 +1,6 @@
 @media all and (min-width: 1920px) {
   header .container {
-    width: 100%;
+    width: 159%;
   }
 
   .container {
@@ -26,23 +26,23 @@
   }
 
   .hero-sections-left h1 {
-    margin-left: 8%;
+    margin-left: 5%;
   }
 
   .hero-sections-left h3 {
-    margin-left: 8%;
+    margin-left: 5%;
   }
 
   .hero-sections-left p {
-    margin-left: 8%;
+    margin-left: 5%;
   }
 
   .btn-wrapper {
-    left: 11.5%;
+    left: 8.5%;
   }
 
   .kartun {
-    left: 59%;
+    left: 60%;
     width: 28%;
     height: auto;
   }
@@ -75,8 +75,12 @@
 }
 
 @media all and (max-width: 1366px) {
+  header .container {
+    width: 103.5%;
+  }
+
   .container {
-    margin: 0 72 0 72px;
+    width: 89.5%;
   }
 
   .responsive {
@@ -95,7 +99,7 @@
   }
 
   .header-right {
-    margin: 36px 92px 0 0;
+    margin: 36px 0px 0 79px;
   }
 
   .header-right ul li a {
@@ -148,6 +152,10 @@
 }
 
 @media all and (max-width: 1280px) {
+  header .container {
+    width: 106%;
+  }
+
   .container {
     margin: 0 5% 0 5%;
   }
@@ -157,7 +165,7 @@
   }
 
   .header-right {
-    margin: 32px 158px 0 0;
+    margin: 32px 0px 0 145px;
   }
 
   .top-wrapper h1 {
@@ -183,6 +191,14 @@
     font-size: 22px;
   }
 
+  .left-course {
+    margin: 16px 142px 50px 50px;
+  }
+
+  .header-price {
+    padding: 56px 98px 0 98px;
+  }
+
   .prices-content {
     width: 330px;
   }
@@ -192,7 +208,7 @@
   }
 
   .testimonial-wrapper {
-    top: 1740px;
+    top: 1642px;
   }
 
   .footer {
@@ -209,13 +225,200 @@
   }
 }
 
+@media all and (max-width: 1024px) {
+  header .container {
+    width: 105%;
+  }
+  .container {
+    width: 90%;
+  }
+
+  .header-right {
+    margin: 32px 0px 0 141px;
+  }
+
+  .header-right ul li {
+    padding-left: 30px;
+  }
+
+  .header-right ul li a {
+    font-size: 16px;
+  }
+
+  .top-wrapper h3 {
+    left: 52px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 55px;
+    width: 505px;
+    left: 51px;
+    line-height: 54px;
+  }
+
+  .top-wrapper p {
+    width: 527px;
+    top: 394px;
+    font-size: 14px;
+    left: 53px;
+  }
+
+  .btn-wrapper {
+    left: 5%;
+    top: 507px;
+  }
+
+  .kartun {
+    left: 57.5%;
+    width: 372px;
+    height: auto;
+    top: 201px;
+  }
+
+  .highlight {
+    top: 297px;
+  }
+
+  .about {
+    top: 797px;
+  }
+
+  .about p {
+    margin: 15px 170px 0 110px;
+  }
+
+  .cooperate-wrapper {
+    top: 673px;
+  }
+
+  .center {
+    padding: 15px;
+    font-size: 36px;
+  }
+
+  .cooperate {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cooperate-icon {
+    width: 50%;
+    padding-bottom: 20px;
+  }
+
+  .learning-process {
+    top: 669px;
+  }
+
+  .learning-process h1 {
+    font-size: 36px;
+  }
+
+  .container-learning {
+    top: 672px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .learnings {
+    margin-bottom: 54px;
+  }
+
+  .category-course {
+    top: 1064px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .left-course {
+    margin: 20px;
+  }
+
+  .right-course {
+    margin: 30px;
+  }
+
+  .input-search {
+    padding: 30px 23px;
+  }
+
+  .container-courses {
+    margin: 40px 50px 0 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .courses {
+    margin-bottom: 58px;
+  }
+
+  .prices {
+    flex-wrap: wrap;
+  }
+
+  .prices-content {
+    margin-bottom: 68px;
+  }
+
+  .testimonial-wrapper {
+    top: 2439px;
+  }
+
+  .testimonial {
+    padding: 0px 88px;
+  }
+
+  .container-testimonial {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .testimonials {
+    width: 42%;
+    margin: 30px 0;
+  }
+
+  .footer {
+    top: 2528px;
+  }
+
+  .row {
+    justify-content: center;
+  }
+
+  .footer-left {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .row .logo {
+    padding-right: 0;
+    padding-left: 0;
+    left: 36%;
+    transform: translate(-50%, -50%);
+  }
+
+  .footer-right {
+    padding-left: 0;
+  }
+}
+
 @media all and (max-width: 810px) {
   header .container {
-    width: 45%;
+    width: 219%;
   }
 
   .container {
     width: 90%;
+  }
+
+  .header-left {
+    margin-left: 50px;
+  }
+
+  .navbar-container {
+    margin-right: 50px;
   }
 
   .header-right {
@@ -323,12 +526,13 @@
 
   .link {
     position: relative;
-    left: 50%;
+    left: 6%;
     transform: translate(-10%, -10%);
   }
 
   .input-search {
-    left: 50%;
+    padding: 0 0;
+    left: 40%;
     position: relative;
     transform: translate(-50%, -50%);
     top: 40px;
@@ -483,9 +687,51 @@
   }
 }
 
+@media all and (max-width: 768px) {
+  .btn-join {
+    margin: 6px 0 15px 0;
+  }
+
+  .testimonial-wrapper {
+    top: 3428px;
+  }
+
+  .footer {
+    top: 3500px;
+  }
+
+  .input-search {
+    left: 32%;
+  }
+
+  .category-course {
+    top: 1100px;
+  }
+
+  .container-courses {
+    top: 1121px;
+  }
+
+  .price-wrapper {
+    top: 1166px;
+  }
+
+  .testimonial-wrapper {
+    top: 3555px;
+  }
+
+  .testimonial-wrapper {
+    top: 3316px;
+  }
+
+  .footer {
+    top: 3384px;
+  }
+}
+
 @media all and (max-width: 428px) {
   header .container {
-    width: 20%;
+    width: 100%;
   }
 
   .container {
@@ -616,6 +862,14 @@
     margin-left: 16px;
   }
 
+  .right-course p {
+    margin: 39px 15px 24px 0;
+  }
+
+  .link-category {
+    margin: 36px 0 0 0;
+  }
+
   .category-course {
     top: 1600px;
   }
@@ -636,6 +890,8 @@
 
   .input-search {
     top: 22px;
+    padding: 0;
+    left: 48%;
   }
 
   .container-courses {
@@ -651,7 +907,7 @@
   }
 
   .testimonial-wrapper {
-    top: 3728px;
+    top: 3856px;
   }
 
   .testimonial {
@@ -690,15 +946,20 @@
   }
 
   .rating-testimonials {
-    margin: 9px 116px;
+    margin: 9px 42px;
+    text-align: center;
   }
 
   .footer {
-    top: 3780px;
+    top: 3886px;
   }
 
   .footer-left {
-    margin-left: 20%;
+    margin-left: 0;
+  }
+
+  .row .logo {
+    left: 26%;
   }
 
   .footer-col {
@@ -741,5 +1002,18 @@
   .footer-icon {
     width: 24px;
     margin: 6px;
+  }
+}
+
+@media all and (max-width: 390px) {
+  .learnings {
+    margin-left: 0;
+  }
+
+  .left-course {
+    font-size: 13px;
+  }
+  .left-course h1 {
+    line-height: 42px;
   }
 }
